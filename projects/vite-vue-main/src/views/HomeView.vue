@@ -1,9 +1,11 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <main>vite 主应用</main>
 </template>
+
+<style lang="css" scoped>
+main {
+  color: #fff;
+}
+</style>

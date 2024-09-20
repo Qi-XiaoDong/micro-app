@@ -2,8 +2,9 @@ import './assets/main.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import { installAntdPlugin } from './plugins/antdPlugin'
-;(async () => {
+import '@/plugins/microApp'
+import { installAntdPlugin } from '@/plugins/antdPlugin'
+;(() => {
   const app = createApp(App)
 
   app.use(router)
